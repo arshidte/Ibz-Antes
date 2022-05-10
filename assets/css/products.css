@@ -1,0 +1,20 @@
+.mainContainer{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.productDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.productImageDiv{
+    padding: 8px;
+    border: 1px solid #002D5D;
+    border-radius: 7px;
+    width: fit-content;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.productImage{
+
+}

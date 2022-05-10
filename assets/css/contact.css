@@ -1,0 +1,29 @@
+.contactCountryCards .card {
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 40px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.contactFooter {
+    background-color: white;
+}
+
+.contactFooterSection .form-control {
+    color: black;
+    background-color: white;
+}
+
+::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: red;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: red;
+  }
