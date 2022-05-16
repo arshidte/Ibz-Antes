@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antes | About Us</title>
+    <title>Antes | Products</title>
     <!--Animation-->
     <link rel="stylesheet" href="assets/css/base.css">
     <!--Animation-->
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="stylesheet" href="assets/css/productPage.css">
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
@@ -74,127 +76,107 @@
                 </ul>
             </div>
         </div>
-    </nav>s
+    </nav>
 
-    <!-- banner section starts here -->
+    <!-- <div class="h-25 d-inline-block"></div> -->
 
-
-    <!-- just makemchange the carouel to carousel to animate the carousel and change in css file also to effect any changes -->
-
-    <!--Animation test-->
-    <!-- <section class="nbanner">
-        <div class="nbanslider">
-            <div class="slide-item">
-                <div class="container nbancnt">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5 order-lg-1 order-2 text-lg-start text-center">
-                            <h1>Lorem ipsum dolor sit amet,<span>consectetuer adipiscing elit</span></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                lobortis
-                            </p>
-                        </div>
-                        <div class="col-lg-6 ms-auto text-end nbanimg order-lg-2 order-1">
-                            <img src="assets/images/banner-product.png" alt="image" class="img-fluid">
-                        </div>
-                    </div>
+        <!--about banner section starts here-->
+        <section class="about-banner">
+            <div class="about-sec">
+                <div>
+                    <h1 class="about-title">
+                        Turnkey
+                    </h1>
+                </div>
+                <div class="">
+                    <img src="assets/images/about-bear-image.png" class="about-bear-image" alt="">
                 </div>
             </div>
-            <div class="slide-item">
-                <div class="container nbancnt">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5 order-lg-1 order-2 text-lg-start text-center">
-                            <h1>Lorem ipsum dolor sit amet,<span>consectetuer adipiscing elit</span></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                lobortis
-                            </p>
+        </section>
+        <!--about banner section ends here-->
+
+    <!-- products  section starts here -->
+    <div class="mx-5 productSectionMainContainer">
+        <div class="row d-flex">
+            <!-- Product images starts here -->
+            <div class="col-md-4 mb-4">
+                    <div id="custCarousel" class="carousel" data-bs-ride="carousel">
+                      <!-- slides -->
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="assets/images/Turnkey 1.png" alt="Hills">
                         </div>
-                        <div class="col-lg-6 ms-auto text-end nbanimg order-lg-2 order-1">
-                            <img src="assets/images/banner-product.png" alt="image" class="img-fluid">
+              
+                        <div class="carousel-item">
+                          <img src="assets/images/Turnkey 2.png" alt="Hills">
                         </div>
+              
+                        <div class="carousel-item">
+                          <img src="assets/images/Turnkey3.png" alt="Hills">
+                        </div>
+              
+                        <div class="carousel-item">
+                          <img src="assets/images/Turnkey 4.png" alt="Hills">
+                        </div>
+                      </div>
+              
+                      <!-- Thumbnails -->
+                      <ol class="carousel-indicators list-inline">
+                        <li class="list-inline-item active">
+                          <a id="carousel-selector-0" class="selected" data-bs-slide-to="0" data-bs-target="#custCarousel">
+                            <img src="assets/images/Turnkey 1.png" class="img-fluid">
+                          </a>
+                        </li>
+              
+                        <li class="list-inline-item">
+                          <a id="carousel-selector-1" data-bs-slide-to="1" data-bs-target="#custCarousel">
+                            <img src="assets/images/Turnkey 2.png" class="img-fluid">
+                          </a>
+                        </li>
+              
+                        <li class="list-inline-item">
+                          <a id="carousel-selector-2" data-bs-slide-to="2" data-bs-target="#custCarousel">
+                            <img src="assets/images/Turnkey3.png"  class="img-fluid">
+                          </a>
+                        </li>
+              
+                        <li class="list-inline-item">
+                          <a id="carousel-selector-3" data-bs-slide-to="3" data-bs-target="#custCarousel">
+                            <img src="assets/images/Turnkey 4.png"  class="img-fluid">
+                          </a>
+                        </li>
+
+                       </ol>
+                       <div class="controlButtons">
+                       <a class="carousel-control-prev" href="#custCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#custCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
                     </div>
-                </div>
+                    </div>
+                    
+              </div>
+
+            <div class="col-md-5 d-flex flex-column mb-4">
+                <h3 class="text-center productHeading">Turnkey solutions</h3>
+                <p class="productContent">Antes Specializes in turnkey solutions of complete cold store which involves supply and installation of Insulated panels, refrigeration systems, palletized racking, material handling equipment’s and automation catering to wide range of application. </p>
+                <p style="font-size: 20px;">Temperature ranging +10° to -40° C, storage capacity ranging from 1 Metric TON to
+                    5000 Metric TON & above. </p>
+            </div>
+            <div class="col-md-3 d-flex flex-column">
+            <h3 class="text-center productHeading" style="color: #002D5D;">Industries</h3>
+            <div class="my-3">
+                <img class="productImg" src="assets/images/productIndustry1.svg" alt="">
+                
             </div>
         </div>
-    </section> -->
-    <!-- <div class="banner-section "> -->
-
-
-
-
-
-    <!--about banner section starts here-->
-    <section class="about-banner">
-        <div class="about-sec">
-            <div>
-                <h1 class="about-title">
-                    About Us
-                </h1>
-            </div>
-            <div class="">
-                <img src="assets/images/about-bear-image.png" class="about-bear-image" alt="">
-            </div>
-        </div>
-    </section>
-    <!--about banner section ends here-->
-    <!-- about page section starts here -->
-    <div class="about-section-one container">
-        <div class="about-image col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            <img src="assets/images/about-banner-image.png" alt="" class="about-image-one img-fluid">
-        </div>
-        <div class="about-text col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            <p class="about-info-one">
-                Antes is a fast-growing commercial refrigeration company in the Cold Chain Domain. Antes specialises in providing customised solutions to diverse requirements of our end to end customers and caters to multiple segments of valued customers from Food Processing,
-                Storage & Packaging Industries, Retail & Fast Food Chains, Dairy Industries, Seafood Exporters, Large Cold-Multipurpose Warehousing, Hospitality, Pharma, Process Line Cooling and Cold Chain Logistics
-
-
-            </p>
-            <p class="about-info-two">
-                Antes currently operates across Singapore, India, and Qatar. Our in-house skilled and experienced team specialises in the "SKS" 5 Key Cross-Functional Specialisations @Design, Cold Solution Delivery, Customised Projects, Installation, and 6 After-Sales
-                Support.
-
-            </p>
-            <p class="about-info-three">The Company is lead by people with over two decades of experience in HVAC industries, with the Founders having thorough & vast experience & knowledge in the field having dealt with numerous Projects and providing satisfactory solutions to
-                clients.
-            </p>
         </div>
     </div>
-
-
-
-    <!-- about page section ends here -->
-    <!-- vision and mission section starts here -->
-    <section id="mission-vission-section">
-        <hr class="right-line">
-        <div class="ball "></div>
-        <div id="vision-mission">
-            <div class="vision d-flex justify-content-around align-items-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <div class="vision-image">
-                    <img src="assets/images/vision-image.svg" alt="" class="img-fluid vision-img">
-                </div>
-                <div class="vision-info">
-                    <h2 class="vision-title">Vision</h2>
-                    <p class="mission-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                    </p>
-                </div>
-            </div>
-            <hr class="center-line">
-            <hr class="left-line">
-            <div class="mission d-flex justify-content-around align-items-center col-12 col-sm-12  col-md-12 col-xl-6 col-xl-12">
-
-                <div class="mission-info">
-                    <h2 class="mission-title">Mission</h2>
-                    <p class="mission-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                    </p>
-                </div>
-                <div class="mission-image">
-                    <img src="assets/images/mission-image.svg" alt="" class="img-fluid mission-img">
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- products slider section starts here -->
+    <!-- product section ends here -->
 
 
 
@@ -338,13 +320,13 @@
             <h3 class="copy-text">© 2022 Antes . All rights reserved.</h3>
             <a href="https://inbounderz.com" target="_blank " class=" design text-decoration-none text-white"> Designed By Inbounderz</a>
         </div>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <a href="https://api.whatsapp.com/send/?phone=919876543210&text&app_absent=0" class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
             <p class="ttoltip">For Your Orders</p>
             <div class="ttoltip-pop"></div>
         </a>
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
         <script src="assets/js/index.js"></script>
 
 
