@@ -74,6 +74,8 @@
     width: 80%;
 }
 
+/* Single product page styles */
+
 .products-title {
     width: 384px;
     height: 24px;
@@ -87,7 +89,23 @@
     color: #313030;
     margin-bottom: 20px;
 }
-
+.product-bear-image{
+    display: block;
+    position: relative;
+    top: 35%;
+    left: 10%;
+    width: 320px;
+    transform: rotate(2deg);
+}
+@media screen and (max-width: 768px){
+    .product-bear-image{
+        display: none;
+    }
+}
+.products-bear-image{
+    display: block;
+    width: 320px;
+}
 .products-info {
     width: 282px;
     height: 69px;
@@ -107,14 +125,22 @@
     font-family: 'poppins';
     font-style: normal;
     color: #002D5D;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .productContent{
     font-family: 'poppins';
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.mainBackground{
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../images/background.png');
+    margin-top: -65px;
+    margin-bottom: -85px;
 }
 .productSectionMainContainer{
-    margin-top: 85px;
+    margin-top: 65px;
     margin-bottom: 85px;
 }
 /* product images carousel stylings starts here*/
@@ -126,7 +152,6 @@
 
 #custCarousel .carousel-indicators {
   position: static;
-  margin-top:20px;
 }
 
 #custCarousel .carousel-indicators > li {
@@ -135,7 +160,6 @@ width:100px;
 
 #custCarousel .carousel-indicators li img {
   display: block;
-  opacity: 0.5;
 }
 
 #custCarousel .carousel-indicators li.active img {
